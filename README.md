@@ -1,16 +1,74 @@
-# React + Vite
+# ColorGraderAI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered color grading tool that analyzes your photo with a vision model and applies professional film stock LUTs via ComfyUI.
 
-Currently, two official plugins are available:
+**Stack:** React (Vite) · Ollama (llava:7b) · ComfyUI · comfyui_essentials
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## How it works
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Upload a (SLOG) photo
+2. Ollama analyzes the image and recommends a film style
+3. You pick a style from 8 professional film LUTs (Fuji / Kodak)
+4. ComfyUI applies the LUT and returns the graded image
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18+)
+- [Ollama](https://ollama.com/)
+- [ComfyUI Desktop](https://www.comfy.org/)
+- comfyui_essentials (ComfyUI custom node)
+
+---
+
+## 1. Ollama setup
+
+Download Ollama from [https://ollama.com](https://ollama.com) and install it.
+
+Then pull the vision model:
+
+```bash
+ollama pull llava:7b
+```
+
+Verify it's running:
+
+```bash
+ollama serve
+```
+
+Ollama runs on `http://localhost:11434`.
+
+---
+
+## 2. ComfyUI setup
+
+Download and install **ComfyUI Desktop** from [https://www.comfy.org](https://www.comfy.org).
+
+### Install comfyui_essentials
+
+In ComfyUI, go to **Manager → Install Custom Nodes** and search for `comfyui_essentials`. Install it and restart ComfyUI.
+
+---
+
+## 3. React app setup
+
+```bash
+npm install
+npm run dev
+```
+
+The app runs on `http://localhost:5173`.
+
+---
+
+## Usage
+
+1. Start Ollama (`ollama serve`)
+2. Start ComfyUI Desktop
+3. Start the React app (`npm run dev`)
+4. Open `http://localhost:5173`
+5. Upload a photo → Analyseer → pick a style → Grade

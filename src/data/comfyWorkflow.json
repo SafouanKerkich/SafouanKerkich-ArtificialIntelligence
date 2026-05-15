@@ -1,0 +1,40 @@
+{
+  "10": {
+    "inputs": {
+      "lut_file": "Fuji ETERNA 250D Kodak 2395 (by Adobe).cube",
+      "gamma_correction": true,
+      "clip_values": true,
+      "strength": 1,
+      "image": [
+        "11",
+        0
+      ]
+    },
+    "class_type": "ImageApplyLUT+",
+    "_meta": {
+      "title": "🔧 Image Apply LUT"
+    }
+  },
+  "11": {
+    "inputs": {
+      "image": "DSC08485.JPG"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Load Image"
+    }
+  },
+  "12": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "10",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Image"
+    }
+  }
+}

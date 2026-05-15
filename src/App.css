@@ -113,3 +113,19 @@
   color: #1a1a1a;
   line-height: 1.6;
 }
+
+/* ── Output image ── */
+.output-section {
+  width: 100%;
+  max-width: 680px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.output-img {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #e0ddd7;
+  object-fit: cover;
+}

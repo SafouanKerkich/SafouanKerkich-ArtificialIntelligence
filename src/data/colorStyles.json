@@ -1,242 +1,42 @@
 {
-  "cinematic": {
-    "label": "Cinematic",
-    "description": "Classic teal & orange film style. Warm skin tones, cool shadows, tamed highlights.",
-    "settings": {
-      "temperature": -10,
-      "tint": 5,
-      "contrast": 20,
-      "highlights": -30,
-      "shadows": 15,
-      "whites": -10,
-      "blacks": 10,
-      "saturation": -15,
-      "vibrance": -5
-    }
+  "fuji_eterna_fuji": {
+    "label": "Fuji ETERNA 250D",
+    "description": "Warm and cinematic Fuji ETERNA film stock with Fuji 3510 print. Rich, saturated colors with smooth skin tones. Great for golden hour and lifestyle shots.",
+    "lut_file": "Fuji ETERNA 250D Fuji 3510 (by Adobe).cube"
   },
-  "warm": {
-    "label": "Warm",
-    "description": "Golden hour feel. Warm tones, soft shadows, high vibrance.",
-    "settings": {
-      "temperature": 25,
-      "tint": 8,
-      "contrast": 10,
-      "highlights": -15,
-      "shadows": 20,
-      "whites": 5,
-      "blacks": 0,
-      "saturation": 10,
-      "vibrance": 20
-    }
+  "fuji_eterna_kodak": {
+    "label": "Fuji ETERNA Kodak",
+    "description": "Fuji ETERNA 250D film stock printed on Kodak 2395. Slightly cooler and more neutral than the Fuji print. Clean highlights and natural midtones.",
+    "lut_file": "Fuji ETERNA 250D Kodak 2395 (by Adobe).cube"
   },
-  "dreamy": {
-    "label": "Dreamy",
-    "description": "Soft, ethereal and hazy. Strongly lifted shadows, reduced contrast, desaturated.",
-    "settings": {
-      "temperature": 5,
-      "tint": 10,
-      "contrast": -20,
-      "highlights": -40,
-      "shadows": 30,
-      "whites": -20,
-      "blacks": 20,
-      "saturation": -20,
-      "vibrance": -10
-    }
+  "fuji_f125_kodak_2393": {
+    "label": "Fuji F125 Classic",
+    "description": "Fine grain Fuji F125 stock on Kodak 2393 print. Natural, true-to-life colors with excellent shadow detail. Ideal for portraits and documentary.",
+    "lut_file": "Fuji F125 Kodak 2393 (by Adobe).cube"
   },
-  "moody": {
-    "label": "Moody",
-    "description": "Dark and dramatic. High contrast, deep blacks, cool tone.",
-    "settings": {
-      "temperature": -15,
-      "tint": 0,
-      "contrast": 35,
-      "highlights": -40,
-      "shadows": -25,
-      "whites": -15,
-      "blacks": -30,
-      "saturation": -20,
-      "vibrance": -10
-    }
+  "fuji_f125_kodak_2395": {
+    "label": "Fuji F125 Warm",
+    "description": "Fuji F125 stock on Kodak 2395 print. Slightly warmer rendition than the 2393 version. Soft contrast with pleasing highlight rolloff.",
+    "lut_file": "Fuji F125 Kodak 2395 (by Adobe).cube"
   },
-  "vintage": {
-    "label": "Vintage",
-    "description": "Analog film style. Faded blacks, muted colors, warm midtones.",
-    "settings": {
-      "temperature": 15,
-      "tint": 5,
-      "contrast": -10,
-      "highlights": -20,
-      "shadows": 25,
-      "whites": -5,
-      "blacks": 25,
-      "saturation": -25,
-      "vibrance": -15
-    }
+  "fuji_reala": {
+    "label": "Fuji REALA 500D",
+    "description": "Fuji REALA 500D — known for its exceptionally accurate skin tones and fine grain. Neutral and clean, great for any lighting condition.",
+    "lut_file": "Fuji REALA 500D Kodak 2393 (by Adobe).cube"
   },
-  "natural": {
-    "label": "Natural",
-    "description": "Clean and true-to-life. Minimal adjustments, slight vibrance boost.",
-    "settings": {
-      "temperature": 0,
-      "tint": 0,
-      "contrast": 5,
-      "highlights": -10,
-      "shadows": 5,
-      "whites": 0,
-      "blacks": 0,
-      "saturation": 0,
-      "vibrance": 10
-    }
+  "kodak_5205": {
+    "label": "Kodak Vision3 50D",
+    "description": "Kodak 5205 (Vision3 50D) daylight stock. Clean, neutral and sharp. Minimal grain, wide dynamic range. Perfect for bright outdoor scenes.",
+    "lut_file": "Kodak 5205 Fuji 3510 (by Adobe).cube"
   },
-  "nordic": {
-    "label": "Nordic",
-    "description": "Cool, bright and Scandinavian. Low saturation, cool temperature, soft contrast.",
-    "settings": {
-      "temperature": -20,
-      "tint": -5,
-      "contrast": -10,
-      "highlights": 10,
-      "shadows": 15,
-      "whites": 10,
-      "blacks": 5,
-      "saturation": -30,
-      "vibrance": -20
-    }
+  "kodak_5218_2383": {
+    "label": "Kodak 500T Warm",
+    "description": "Kodak 5218 (Vision3 500T) tungsten-balanced stock on Kodak 2383 print. Warm, rich shadows and creamy highlights. Classic cinema look.",
+    "lut_file": "Kodak 5218 Kodak 2383 (by Adobe).cube"
   },
-  "neon": {
-    "label": "Neon",
-    "description": "Cyberpunk style. High saturation, high contrast, cool tone, deep blacks.",
-    "settings": {
-      "temperature": -25,
-      "tint": 15,
-      "contrast": 40,
-      "highlights": -20,
-      "shadows": -20,
-      "whites": 20,
-      "blacks": -40,
-      "saturation": 40,
-      "vibrance": 30
-    }
-  },
-  "matte": {
-    "label": "Matte",
-    "description": "Flat, faded indie film look. Heavily lifted blacks, reduced contrast, muted tones.",
-    "settings": {
-      "temperature": 5,
-      "tint": 0,
-      "contrast": -25,
-      "highlights": -15,
-      "shadows": 10,
-      "whites": -20,
-      "blacks": 35,
-      "saturation": -20,
-      "vibrance": -10
-    }
-  },
-  "bleach_bypass": {
-    "label": "Bleach Bypass",
-    "description": "Classic darkroom technique. Skips the bleach step — high contrast, silvery, heavily desaturated.",
-    "settings": {
-      "temperature": 0,
-      "tint": 0,
-      "contrast": 45,
-      "highlights": -25,
-      "shadows": -30,
-      "whites": 15,
-      "blacks": -20,
-      "saturation": -50,
-      "vibrance": -30
-    }
-  },
-  "golden_film": {
-    "label": "Golden Film",
-    "description": "Kodak Portra inspired. Warm, rich and slightly lifted shadows. Great for portraits.",
-    "settings": {
-      "temperature": 20,
-      "tint": 8,
-      "contrast": 5,
-      "highlights": -10,
-      "shadows": 20,
-      "whites": 0,
-      "blacks": 15,
-      "saturation": 5,
-      "vibrance": 15
-    }
-  },
-  "blue_hour": {
-    "label": "Blue Hour",
-    "description": "Twilight and dusk atmosphere. Cool blue-purple tones, lifted shadows, soft contrast.",
-    "settings": {
-      "temperature": -30,
-      "tint": 20,
-      "contrast": 10,
-      "highlights": -20,
-      "shadows": 20,
-      "whites": -10,
-      "blacks": 5,
-      "saturation": -10,
-      "vibrance": 5
-    }
-  },
-  "desert": {
-    "label": "Desert",
-    "description": "Dry, dusty and sun-baked. Very warm temperature, boosted oranges, high contrast.",
-    "settings": {
-      "temperature": 35,
-      "tint": 5,
-      "contrast": 25,
-      "highlights": -10,
-      "shadows": -10,
-      "whites": 10,
-      "blacks": -10,
-      "saturation": 15,
-      "vibrance": 10
-    }
-  },
-  "tokyo_night": {
-    "label": "Tokyo Night",
-    "description": "City lights at night. High saturation, deep blacks, mix of warm highlights and cool shadows.",
-    "settings": {
-      "temperature": -15,
-      "tint": 10,
-      "contrast": 40,
-      "highlights": 15,
-      "shadows": -30,
-      "whites": 20,
-      "blacks": -45,
-      "saturation": 35,
-      "vibrance": 25
-    }
-  },
-  "matrix_green": {
-    "label": "Matrix Green",
-    "description": "Iconic Matrix color grade. Strong green cast, desaturated, high contrast with deep blacks. Everything inside the simulation.",
-    "settings": {
-      "temperature": -10,
-      "tint": -40,
-      "contrast": 35,
-      "highlights": -20,
-      "shadows": -25,
-      "whites": 10,
-      "blacks": -35,
-      "saturation": -30,
-      "vibrance": -20
-    }
-  },
-  "western": {
-    "label": "Western",
-    "description": "Spaghetti western inspired. Warm dusty palette, boosted yellows and oranges, high contrast with deep shadows. Think Leone.",
-    "settings": {
-      "temperature": 30,
-      "tint": 8,
-      "contrast": 30,
-      "highlights": -15,
-      "shadows": -20,
-      "whites": 5,
-      "blacks": -20,
-      "saturation": -10,
-      "vibrance": 5
-    }
+  "kodak_5218_2395": {
+    "label": "Kodak 500T Natural",
+    "description": "Kodak 5218 tungsten stock on Kodak 2395 print. Slightly cooler and more contrasty than the 2383 version. Gritty, textured film feel.",
+    "lut_file": "Kodak 5218 Kodak 2395 (by Adobe).cube"
   }
 }
